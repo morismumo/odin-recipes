@@ -1,0 +1,45 @@
+/* General Page Styling */
+body {
+    background-color: #FDF8F1; /* Warm cream */
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color:#7F8C8D;
+    line-height: 1.6;
+    margin: 0;
+    padding: 40px;
+    flex-direction: column;
+}
+
+/* Heading Styling */
+h1 {
+    color: #E67E22; /* Spiced Orange */
+    text-decoration: underline;
+    text-decoration-color: #E67E22;
+    font-size: 2rem;
+    margin-bottom: 1px;
+    padding-bottom: 5px;
+}
+
+/* Heading styling */
+h3 {
+    color: rgb(39, 174, 96); /* Herb Green */
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+/* Description Text */
+p {
+    font-style: italic;
+    text-align: left;
+    font-size: 1rem;
+    margin-top: auto;
+}
+
+a {
+    color: #E67E22; /* spiced orange */
+    text-decoration: none;
+    background-color: rgba(39, 174, 96, 0.3); /* Faded Herb Green */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}

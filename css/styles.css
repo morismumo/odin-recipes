@@ -1,0 +1,63 @@
+/* General Page Styling */
+body {
+    background-color: #FDF8F1; /* Warm cream */
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Heading Styling */
+h1 {
+    color: #E67E22; /* Spiced Orange */
+    font-size: 3rem;
+    margin-bottom: 1px;
+    border-bottom: 4px solid #F39C12;
+    padding-bottom: 5px;
+}
+
+/* Description Text */
+p {
+    font-style: italic;
+    text-align: center;
+    color: #7F8C8D;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+/* List/Recipe Links Styling */
+ul {
+    list-style-type: none; /* Removes the dots */
+    padding: 0;
+    width: 100%;
+    max-width: 400px;
+}
+
+li {
+    margin: 15px 0;
+}
+
+a {
+    display: block;
+    background-color: #FFFFFF;
+    color: #27AE60; /* Herb Green */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+/* Hover Effects */
+a:hover {
+    background-color: #27AE60;
+    color: white;
+    transform: translateY(-3px); /* Lifts the button slightly */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
